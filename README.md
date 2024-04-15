@@ -156,7 +156,7 @@ FLUSH PRIVILEGES;
 
 
 sudo mysql.server start
-pwd: evg123
+pwd:  somePWD
 
 access mysql: mysql -u root
 
