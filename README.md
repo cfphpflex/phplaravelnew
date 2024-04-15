@@ -151,7 +151,7 @@ brew install mysql
 brew services start mysql
 mysql -u root
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
+ALTER : 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
 FLUSH PRIVILEGES;
 
 
