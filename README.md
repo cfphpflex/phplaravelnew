@@ -160,15 +160,8 @@ pwd: evg123
 
 access mysql: mysql -u root
 
-
-superadmin
-User::USERNAME			=> 'superadmin',
-User::PASSWORD			=> Hash::make( 'SuperAdmin123!' ),
-
-emiliano.gaytan@me.com
-User::USERNAME			=> 'emiliano.gaytan@me.com',
-User::PASSWORD			=> Hash::make( 'RomTech20#1' ),
-
+ 
+ 
 ## RESET & CLEANUP CACHE & DATABASE MIGRATION SCRIPTS (RUN ALL AT ONE TIME)
 php artisan clear-compiled
 composer dump-autoload
